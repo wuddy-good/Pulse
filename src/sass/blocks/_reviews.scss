@@ -55,3 +55,22 @@
             }
        }
 }
+@media (max-width: 576px){
+
+    .reviews{
+         &__img{
+             &:nth-child(2){
+                 img{
+                     width: 210%;
+                 }
+             }
+             img{
+                 width: 210%;
+                 
+             }
+         }
+         &__item{
+            margin-bottom: 25px;
+         }
+    }
+}

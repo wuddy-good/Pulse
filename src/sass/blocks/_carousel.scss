@@ -40,6 +40,15 @@
         left: auto;
     }
 }
+@media (max-width: 820px){
+    .carousel{
+        .prev, .next{
+            height: 30px;
+            top: 93%;
+        }
+    }
+   
+}
 @media (max-width: 575px){
     .carousel{
         .prev, .next{
